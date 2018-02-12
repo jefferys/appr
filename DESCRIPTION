@@ -1,0 +1,16 @@
+Package: appr
+Type: Package
+Title: Application framework for R
+Version: 0.0.0.9000
+Author: Stuart R. Jefferys <srjefferys@gmail.com>
+Maintainer: Stuart R. Jefferys <srjefferys@gmail.com>
+Description: A framework for building pluggable command line R applications
+    based on descriptor files. Automatically generates a command line interface
+    that supports commands from installed packages by configuring them in a
+    descriptor file. Supports options at the application and command level,
+    including configuration files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: testthat
